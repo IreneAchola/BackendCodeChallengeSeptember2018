@@ -1,12 +1,12 @@
 # Africa's Talking Code Challenge  
-[Africa's Talking](https://africastalking.com/) is a Pan-African, Platform as a Service (PaaS) company based in 7 African countries including : Lagos, Nigeria, at 249 Herbert Macaulay Way , Sabo - Yaba.
+[Africa's Talking](https://africastalking.com/) is a Pan-African, Platform as a Service (PaaS) company based in 7 African countries including : Nairobi, Kenya, 7th Floor Galana Plaza
 
 Our world-class infrastructure is created for developers and relied upon by businesses. We avail the complexity of SMS, VOICE, USSD, AIRTIME & PAYMENTS via simple API calls and at a fraction of the cost.
 
 ### Steps to follow:
 To join this challenge:
-  - Read the challenge [here](http://atdevoutreach.viewdocs.io/CodeChallengeSwahiliPot/CodeChallengeSwahiliPot/)
-  - Follow the steps to submit your code [here](http://atdevoutreach.viewdocs.io/CodeChallengeSwahiliPot/CodeChallengeSteps/)
+  - Read the challenge [here](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/BackendCodeChallengeSeptember2018/)
+  - Follow the steps to submit your code [here](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/BackendCodeChallengeSeptember2018Steps/)
 
 ## About the Code Challenge:
 The code challenge is a great opportunity for developers around the world to try out our APIs and also get noticed for it.

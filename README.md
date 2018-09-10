@@ -1,4 +1,4 @@
-# Infra Code Challenge
+# Backend Code Challenge
 ## Due: Wednesday 12th September (6am) 
 #### This code challenge is due on the 12th September, 2018 or earlier.
 
@@ -22,37 +22,14 @@ You can participate on as many challenges as you wish:
   - A chance to work with some of the most brilliant minds in Africa
 
 ## Task
-In this code challenge you will be required to build a toy network protocol with a client/server architecture:
+In this code challenge you will be required to work on several challenges:
 
-#### For the server
-Create a program that binds to TCP port 24240. When it recieves a new connection, the program shall read three unsigned bytes. The first byte denotes a function while the second and third bytes are arguments to the function
+1. Write a function that takes an int n and returns a list of all prime numbers between 0 and n 
+2. Write a function that takes an Int n and returns a List of all the factorials of the numbers between 0 and n 
+3. Using Pattern Matching to match a case of List of either of the following  types Int, String and Float. 
+4. Using scala's Regex expression pattern find whether a String "7th floor Galana plaza, Kilimani" contains a Integer.  (your function should return Some(7) as the result)
+5. Write a case class Person(name: String, age: Int) that enforce the age value must be a positive value.
 
-The functions are as follows:
-- 0 -> Addition. This function adds the second and third byte
-- 1 -> This function multiplies the second and third byte
-- 2 -> Bitwise AND
-- 3 -> Bitwise OR
-- 4 -255 -> Reserved
-
-The program shall respond with one byte, the result of applying the arguments to the function, and close the connection. If the result of the function is greater than 255, the server should return the value mod 255. Start the program.
-
-#### For the client
-
-Create a program that takes three command-line arguments. The program will be invoked in the command-line as:
-
-```
->>> ./prog function arg1 arg2
-```
-
-For example:
-
-```
->>> ./prog add 6 4
-```
-
-Valid functions are the following set of strings: [add, mul, and, or],
-which correspond to the functions above. Valid arguments are 0-255.
-When the program is invoked, it should send 3 bytes to the server on port 24240. The three bytes are the byte representing the function, and the two arguments to the function. The program should read one byte from the server, print it, print a newline character, and exit.
 
 
 # Working on the Code Challenge
@@ -63,7 +40,7 @@ When the program is invoked, it should send 3 bytes to the server on port 24240.
 >Pull all changes, make sure your repository is up to date
 
 ```sh
-$ cd InfraCodeChallengeSeptember2018
+$ cd BackendCodeChallengeSeptember2018
 $ git pull origin master
 ```
 
@@ -91,16 +68,16 @@ $ git push origin -u 25472XXXXXXX
 
 4.Commit the changes to your fork.
 
-5.Make a pull request to the InfraCodeChallengeSeptember2018 
+5.Make a pull request to the BackendCodeChallengeSeptember2018 
 Repo.
 
 ### Additional:
-1. See the online version of the code challenge [here](http://atdevoutreach.viewdocs.io/InfraCodeChallengeSeptember2018/InfraCodeChallengeSeptember2018/) to get acquainted.
+1. See the online version of the code challenge [here](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/BackendCodeChallengeSeptember2018/) to get acquainted.
 
-2.  Check out the format for submitting your code [here](http://atdevoutreach.viewdocs.io/InfraCodeChallengeSeptember2018/InfraCodeChallengeSeptember2018Steps/)
+2.  Check out the format for submitting your code [here](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/BackendCodeChallengeSeptember2018Steps/)
 
 ## About Africa's Talking Code Challenges
-Please read the overview for all code challenges [here.](http://atdevoutreach.viewdocs.io/InfraCodeChallengeSeptember2018/)
+Please read the overview for all code challenges [here.](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/)
 
 ## Get Support from Africa's Talking
-In case you have any questions, reach out [Roina Ochieng](rochieng@africastalking.com) or [Anthony Kiplimo](anthony.kiplimo@africastalking.com)
+In case you have any questions, reach out [Roina Ochieng](mailto:rochieng@africastalking.com) or [Anthony Kiplimo](mailto:anthony.kiplimo@africastalking.com)
