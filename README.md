@@ -71,13 +71,6 @@ $ git push origin -u 25472XXXXXXX
 5.Make a pull request to the BackendCodeChallengeSeptember2018 
 Repo.
 
-### Additional:
-1. See the online version of the code challenge [here](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/BackendCodeChallengeSeptember2018/) to get acquainted.
-
-2.  Check out the format for submitting your code [here](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/BackendCodeChallengeSeptember2018Steps/)
-
-## About Africa's Talking Code Challenges
-Please read the overview for all code challenges [here.](http://atdevoutreach.viewdocs.io/BackendCodeChallengeSeptember2018/)
 
 ## Get Support from Africa's Talking
 In case you have any questions, reach out [Roina Ochieng](mailto:rochieng@africastalking.com) or [Anthony Kiplimo](mailto:anthony.kiplimo@africastalking.com)
